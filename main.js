@@ -463,7 +463,7 @@ function game() {
     ctx2.fillText("You Lost", width2 / 2, height2 / 2);
 
   }
-  if (score=1000){
+  if (score===1000){
     alert("Great job playing Cody! You are now being redirected to your birthday gram!")
     window.location.href = "https://n8python.github.io/cody-gram/"
   }
